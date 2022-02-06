@@ -7,10 +7,9 @@ while (intentos <= 2) {
   } else {
     console.log("Clave correcta, Bienvenido");
   }
-
-  if (intentos === 2 && clave !== "Eureka") {
-    console.log("Has agotado la cantidad de intentos");
-  }
-
   intentos = intentos + 1;
+}
+
+if (intentos === 2 && clave !== "Eureka") {
+  console.log("Has agotado la cantidad de intentos");
 }
